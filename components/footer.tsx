@@ -32,7 +32,6 @@ export default function Footer() {
               <div className="text-white/75 hover:text-white transition-colors cursor-pointer" onClick={() => scrollToSection("values")}>V. Mô hình dân chủ</div>
               <div className="text-white/75 hover:text-white transition-colors cursor-pointer" onClick={() => scrollToSection("viewpoint")}>VI. Quan điểm sinh viên</div>
               <div className="text-white/75 hover:text-white transition-colors cursor-pointer" onClick={() => scrollToSection("references")}>Tài liệu tham chiếu</div>
-              <div className="text-white/75 hover:text-white transition-colors cursor-pointer" onClick={() => scrollToSection("portfolio")}>Thư viện hình ảnh</div>
             </div>
           </div>
 

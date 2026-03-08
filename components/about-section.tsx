@@ -51,8 +51,7 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-5xl md:text-7xl font-display font-black mb-6 leading-tight">
-              <span className="text-gradient block">IV. Bảng So Sánh Ngắn Gọn</span>
-              <span className="text-white/90 block italic mt-2">Dễ Thuyết Trình</span>
+              <span className="text-gradient block">IV. Bảng So Sánh</span>
             </h2>
             <div className="section-divider my-8" />
           </motion.div>
@@ -88,7 +87,7 @@ export default function AboutSection() {
                 <TableHeader>
                   <TableRow className="border-white/10 hover:bg-white/5">
                     <TableHead className="text-white font-bold w-[200px] min-w-[160px]">Tiêu chí</TableHead>
-                    <TableHead className="text-white/90 font-bold bg-white/5">Nhà nước tư sản</TableHead>
+                    <TableHead className="text-yellow-400 font-bold bg-yellow-500/10">Nhà nước tư sản</TableHead>
                     <TableHead className="text-blue-400 font-bold bg-blue-500/10">Nhà nước XHCN</TableHead>
                   </TableRow>
                 </TableHeader>
@@ -96,8 +95,8 @@ export default function AboutSection() {
                   {comparisonRows.map((row, i) => (
                     <TableRow key={i} className="border-white/10 hover:bg-white/5">
                       <TableCell className="text-white font-semibold align-top py-5">{row.criteria}</TableCell>
-                      <TableCell className="text-white/80 align-top py-5 text-sm">{row.nnts}</TableCell>
-                      <TableCell className="text-white/80 align-top py-5 text-sm bg-blue-500/5">{row.xhcn}</TableCell>
+                      <TableCell className="text-yellow-400 align-top py-5 text-sm bg-yellow-500/5">{row.nnts}</TableCell>
+                      <TableCell className="text-blue-400 align-top py-5 text-sm bg-blue-500/5">{row.xhcn}</TableCell>
                     </TableRow>
                   ))}
                 </TableBody>

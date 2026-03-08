@@ -9,7 +9,6 @@ import AboutSection from "@/components/about-section"
 import TrustedBySection from "@/components/trusted-by-section"
 import StudentViewpointSection from "@/components/student-viewpoint-section"
 import CompaniesSection from "@/components/companies-section"
-import PortfolioSection from "@/components/portfolio-section"
 import Footer from "@/components/footer"
 import ScrollFadeWrapper from "@/components/scroll-fade-wrapper"
 import TextMarquee from "@/components/text-marquee"
@@ -58,10 +57,6 @@ export default function Home() {
         </ScrollFadeWrapper>
 
         <ScrollFadeWrapper delay={400}>
-          <PortfolioSection />
-        </ScrollFadeWrapper>
-
-        <ScrollFadeWrapper delay={700}>
           <Footer />
         </ScrollFadeWrapper>
       </main>

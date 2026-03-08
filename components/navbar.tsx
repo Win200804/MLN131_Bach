@@ -96,7 +96,6 @@ export default function Navbar() {
               <button onClick={() => scrollToSection("values")} className="nav-item text-white/75 hover:text-white transition-colors relative text-sm whitespace-nowrap">V. Mô hình</button>
               <button onClick={() => scrollToSection("viewpoint")} className="nav-item text-white/75 hover:text-white transition-colors relative text-sm whitespace-nowrap">VI. Quan điểm</button>
               <button onClick={() => scrollToSection("references")} className="nav-item text-white/75 hover:text-white transition-colors relative text-sm whitespace-nowrap">Tài liệu</button>
-              <button onClick={() => scrollToSection("portfolio")} className="nav-item text-white/75 hover:text-white transition-colors relative text-sm whitespace-nowrap">Thư viện</button>
               <Link href="/references" className="nav-item text-white/75 hover:text-white transition-colors relative text-sm whitespace-nowrap">Trích dẫn</Link>
             </div>
           )}
@@ -138,7 +137,6 @@ export default function Navbar() {
               <button onClick={() => scrollToSection("values")} className="text-white hover:text-white/80 transition-colors py-2" role="menuitem">V. Mô hình</button>
               <button onClick={() => scrollToSection("viewpoint")} className="text-white hover:text-white/80 transition-colors py-2" role="menuitem">VI. Quan điểm</button>
               <button onClick={() => scrollToSection("references")} className="text-white hover:text-white/80 transition-colors py-2" role="menuitem">Tài liệu</button>
-              <button onClick={() => scrollToSection("portfolio")} className="text-white hover:text-white/80 transition-colors py-2" role="menuitem">Thư viện</button>
               <Link href="/references" className="text-white hover:text-white/80 transition-colors py-2" role="menuitem">Trích dẫn</Link>
             </div>
           </div>
